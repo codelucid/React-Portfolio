@@ -16,7 +16,7 @@ class Parallax extends Component {
         return (
             <div>
                 <div className="parallax-container">
-                    <div className="parallax"><img src="images/parallax1.jpg"/></div>
+                    <div className="parallax"><img src="https://images.unsplash.com/photo-1542314490-be9a382dbbb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/></div>
                 </div>
                 <div className="section white">
                     <div className="row container">
@@ -25,7 +25,7 @@ class Parallax extends Component {
                     </div>
                 </div>
                 <div className="parallax-container">
-                    <div className="parallax"><img src="images/parallax2.jpg"/></div>
+                    <div className="parallax"><img src="https://images.unsplash.com/photo-1450380412196-4e27fb7d2270?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/></div>
                 </div>
             </div>
         )
