@@ -18,7 +18,7 @@ class Parallax extends Component {
             <div>
                 
                 <div className="parallax-container">
-                    <div className="parallax"><img src="../../../beachStars.png" alt="beachStars"/></div>
+                    <div className="parallax"><img src="../../../../beachStars.png" alt="beachStars"/></div>
                 </div>
                 <div className="section white">
                     <div className="row container">
@@ -27,7 +27,7 @@ class Parallax extends Component {
                     </div>
                 </div>
                 <div className="parallax-container">
-                    <div className="parallax"><img src="../../../mountain.png" alt="mountain"/></div>
+                    <div className="parallax"><img src="../../../../mountain.png" alt="mountain"/></div>
                 </div>
             </div>
         )
