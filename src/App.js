@@ -1,18 +1,20 @@
 import React from 'react';
-import Parallax from "./components/layout";
-import Navbar from "./components/navbar";
+import Parallax from "./components/Parallax/parallax";
+import Navbar from "./components/Navbar/navbar";
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Parallax/>
-      <Navbar/>
+      <div>
+        <Navbar/>
+        <Parallax/>
+      
         {/* <Header />
         <Project />
         <Footer /> */}
       
-    </Router>
+    
+    </div>
   );
 }
 

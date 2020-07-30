@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Parallax extends Component {
     
     componentDidMount() {
@@ -15,8 +16,9 @@ class Parallax extends Component {
     render() {
         return (
             <div>
+                
                 <div className="parallax-container">
-                    <div className="parallax"><img src="https://images.unsplash.com/photo-1542314490-be9a382dbbb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/></div>
+                    <div className="parallax"><img src="../../../beachStars.png" alt="beachStars"/></div>
                 </div>
                 <div className="section white">
                     <div className="row container">
@@ -25,7 +27,7 @@ class Parallax extends Component {
                     </div>
                 </div>
                 <div className="parallax-container">
-                    <div className="parallax"><img src="https://images.unsplash.com/photo-1450380412196-4e27fb7d2270?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/></div>
+                    <div className="parallax"><img src="../../../mountain.png" alt="mountain"/></div>
                 </div>
             </div>
         )
