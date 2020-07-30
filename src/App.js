@@ -1,16 +1,16 @@
 import React from 'react';
-
+import Parallax from "./components/layout";
 
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
+      <Parallax/>
+        {/* <Header />
         <Project />
-        <Footer />
-      </div>
+        <Footer /> */}
+      
     </Router>
   );
 }
