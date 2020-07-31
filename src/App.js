@@ -6,6 +6,8 @@ import About from "./components/pages/About";
 import Blog from "./components/pages/Blog";
 import Contact from "./components/pages/Contact";
 
+import Header from "./components/Header";
+import ProjectCard from "./components/ProjectCard";
 import projects from "./projects.json";
 
 
@@ -19,8 +21,8 @@ class App extends Component {
   };
 
   removeFriend = id => {
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    this.setState({ friends });
+    const projects = this.state.projects.filter(project => project.id !== id);
+    this.setState({ projects });
   };
 
   render() {
@@ -28,7 +30,7 @@ class App extends Component {
       <Router>
         <div>
           <NavTabs />
-          
+          <Header>Coop's React Portfolio!</Header>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/blog" component={Blog} />
