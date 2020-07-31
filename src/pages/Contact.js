@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Projects from "./Projects";
+import Row from "../components/Row";
 import "./style.css";
 
 function Contact(props) {
