@@ -6,7 +6,7 @@ import "./style.css";
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1 className="text-center">Contact Page</h1>
       
       {/* <div className="container">
         <div className="row">
@@ -45,10 +45,10 @@ function Contact(props) {
             </div>
           </div>
         </div> */}
-        <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
+        <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link text-center">
           Learn More
         </Link>{" "}
-        <Link to="/contact" role="button" className="btn btn-link">
+        <Link to="/contact" role="button" className="btn btn-link text-center">
           Learn Less
         </Link>
         <Route exact path={`${props.match.url}/learn`} component={Learn} />
