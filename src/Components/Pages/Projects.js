@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
+import Wrapper from "../Wrapper";
 
 function Projects(props) {
   return (
@@ -8,7 +9,9 @@ function Projects(props) {
       <p className="text-center">
         Here are some of the projects I have worked on!
       </p>
+      <Wrapper>
      <ProjectCard/>
+     </Wrapper>
     </div>
   );
 }
