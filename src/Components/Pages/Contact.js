@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-import Learn from "./Learn";
+import Projects from "./Projects";
 import "./style.css";
 
 function Contact(props) {
@@ -45,13 +45,13 @@ function Contact(props) {
             </div>
           </div>
         </div> */}
-        <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link text-center">
-          Learn More
+        <Link to={`${props.match.url}/projects`} role="button" className="btn btn-link text-center">
+          Projects Appear
         </Link>{" "}
         <Link to="/contact" role="button" className="btn btn-link text-center">
-          Learn Less
+          Projects Disappear
         </Link>
-        <Route exact path={`${props.match.url}/learn`} component={Learn} />
+        <Route exact path={`${props.match.url}/projects`} component={Projects} />
     </div>
     
   );

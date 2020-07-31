@@ -7,6 +7,8 @@ import Blog from "./components/pages/Blog";
 import Contact from "./components/pages/Contact";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 import ProjectCard from "./components/ProjectCard";
 import projects from "./projects.json";
 
@@ -20,7 +22,7 @@ class App extends Component {
     projects
   };
 
-  removeFriend = id => {
+  removeProject = id => {
     const projects = this.state.projects.filter(project => project.id !== id);
     this.setState({ projects });
   };
@@ -30,11 +32,13 @@ class App extends Component {
       <Router>
         <div>
           <NavTabs />
+          <Wrapper>
           <Header>Coop's React Portfolio!</Header>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
+          
           {this.state.projects.map(project => (
             <ProjectCard
               removeProject={this.removeProject}
@@ -46,9 +50,10 @@ class App extends Component {
               linkGithub={project.linkGithub}
             />
           ))}
-         
-
+          </Wrapper>
+          <Footer>Thank you for visiting!</Footer>
         </div>
+        
       </Router>
     );
   }

@@ -2,14 +2,14 @@
     {
       "id": 1,
       "name": "'Weather' to Travel",
-      "image": "/src/travel.png",
+      "image": "../public/travel.png",
       "linkDeployed": "https://codelucid.github.io/weatherToTravelOrNot/",
       "linkGithub": "https://github.com/codelucid/weatherToTravelOrNot"
     },
     {
       "id": 2,
       "name": "Eat-Da-Burger",
-      "image": "/src/eat-da-burger.png",
+      "image": "../public/eat-da-burger.png",
       "linkDeployed": "https://eat-da-burger-tracker.herokuapp.com/",
       "linkGithub": "https://github.com/codelucid/burger"
     },
