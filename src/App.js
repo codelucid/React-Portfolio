@@ -18,6 +18,11 @@ class App extends Component {
     projects
   };
 
+  removeFriend = id => {
+    const friends = this.state.friends.filter(friend => friend.id !== id);
+    this.setState({ friends });
+  };
+
   render() {
     return (
       <Router>
