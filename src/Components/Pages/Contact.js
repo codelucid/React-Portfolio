@@ -18,7 +18,7 @@ function Contact(props) {
               <div className="card-body">
                 <h5 className="card-title"><strong>Résumé</strong></h5>
                 <p className="card-text">Please learn more about my background!</p>
-                <a href="Coop New Resume Updated.pdf" target="_blank" className="btn btn-info" id="rbut">Résumé</a>
+                <a href="https://drive.google.com/file/d/1OAhgGaoLbwmUC7uDP2DQEaGAat0FK7Bp/view?usp=sharing" target="_blank" className="btn btn-info" id="rbut">Résumé</a>
               </div>
             </div>
           </div>
