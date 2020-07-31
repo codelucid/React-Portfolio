@@ -7,7 +7,7 @@ function Contact(props) {
   return (
     <div>
       <h1 className="text-center">Contact Information</h1>
-      <div className="row">
+      <Row>
         <div className="card text-center col">
           <div className="card-body">
             <h5 className="card-title"><strong>Résumé</strong></h5>
@@ -29,7 +29,7 @@ function Contact(props) {
             <a href="https://www.linkedin.com/in/codelucid/" target="_blank" className="btn btn-primary" id="lbut">LinkedIn</a>
           </div>
         </div>
-      </div>
+      </Row>
       <div className="text-center">
         <Link to={`${props.match.url}/projects`} role="button" className="btn btn-link text-center">
           Projects Appear
