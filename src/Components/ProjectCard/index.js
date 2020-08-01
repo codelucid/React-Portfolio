@@ -5,18 +5,18 @@ function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={require(props.image)} />
+        <img alt={props.name} src={`${process.env.PUBLIC_URL}${props.image}`} />
       </div>
       <div className="content">
-        <ul>
+        <ul className="text-center">
           <li>
-            <strong>Name:</strong> {props.name}
+            {props.name}
           </li>
           <li>
-            <strong>Deployed Link:</strong> {props.linkDeployed}
+            <a href={props.linkDeployed}>Deployed Link</a>
           </li>
           <li>
-            <strong>Github Repository:</strong> {props.linkGithub}
+            <a href={props.linkGithub}>Github Link</a>
           </li>
         </ul>
       </div>

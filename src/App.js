@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Router, Link } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -29,9 +29,6 @@ function App() {
     </HashRouter>
   );
 }
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
-const Blog = () => <div><h2>Blog</h2></div>
-const Contact = () => <div><h2>Contact</h2></div>
+
 
 export default App;

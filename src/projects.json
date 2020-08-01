@@ -2,42 +2,42 @@
     {
       "id": 1,
       "name": "'Weather' to Travel",
-      "image": "./images/travel.png",
+      "image": "/images/travel.png",
       "linkDeployed": "https://codelucid.github.io/weatherToTravelOrNot/",
       "linkGithub": "https://github.com/codelucid/weatherToTravelOrNot"
     },
     {
       "id": 2,
       "name": "Eat-Da-Burger",
-      "image": "./images/eat-da-burger.png",
+      "image": "/images/eat-da-burger.png",
       "linkDeployed": "https://eat-da-burger-tracker.herokuapp.com/",
       "linkGithub": "https://github.com/codelucid/burger"
     },
     {
       "id": 3,
       "name": "Calendar Planner",
-      "image": "./images/calendarplanner.png",
+      "image": "/images/calendarplanner.png",
       "linkDeployed": "https://codelucid.github.io/calendarplanner/",
       "linkGithub": "https://github.com/codelucid/calendarplanner"
     },
     {
       "id": 4,
       "name": "NoteTaker",
-      "image": "./images/notetaker.png",
+      "image": "/images/notetaker.png",
       "linkDeployed": "https://notetakerforall.herokuapp.com/",
       "linkGithub": "https://github.com/codelucid/NoteTaker"
     },
     {
       "id": 5,
       "name": "Giphtionary",
-      "image": "./images/giphtionary.png",
+      "image": "/images/giphtionary.png",
       "linkDeployed": "https://rachelhamiltonworks.github.io/giphtionary-beta/",
       "linkGithub": "https://github.com/codelucid/giphtionary-beta"
     },
     {
       "id": 6,
       "name": "TourZing",
-      "image": "./images/tourzing.png",
+      "image": "/images/tourzing.png",
       "linkDeployed": "https://degrassi-syrup-05027.herokuapp.com/",
       "linkGithub": "https://github.com/rureed/Project2"
     }

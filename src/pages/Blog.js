@@ -7,8 +7,8 @@ function Blog() {
       <p className="text-center" >
        Curious about the boot camp experience?  Please learn about my experience and my fellow classmates' experiences,
        by exploring our blog!
-      </p>
-      <a href="https://weekly-stack.com/" target="_blank"/>
+       </p>
+      <p className="text-center"><a href="https://weekly-stack.com/" target="_blank">Weekly-Stack</a></p>
     </div>
   );
 }
