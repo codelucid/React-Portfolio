@@ -48,5 +48,4 @@ If you have questions about the repo, contact Codelucid directly, at coophealey@
 
 [![My Profile Picture](/profilePic.png)](https://github.com/codelucid "My Profile Picture")
 
-- The Classic Portfolio
-[My Portfolio](https://codelucid.github.io/Portfolio/ "My Portfolio")
+[My Portfolio](https://codelucid.github.io/Portfolio/ "The Classic Portfolio")
