@@ -8,7 +8,7 @@ function ProjectCard(props) {
         <img alt={props.name} src={`${process.env.PUBLIC_URL}${props.image}`} />
       </div>
       <div className="content">
-        <ul className="text-center">
+        <ul>
           <li>
             {props.name}
           </li>
