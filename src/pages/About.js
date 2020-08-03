@@ -1,13 +1,15 @@
 import React from "react";
 import Mountain from "../components/Mountain";
+import ProfilePic from "../components/ProfilePic";
 
 function About() {
   return (
     <div>
       <Mountain backgroundImage="/images/mountain.png">
       <h1 className="text-center">Cooper Healey</h1>
+      <ProfilePic backgroundImage="/images/ProfilePic.png"/>
       <p className="text-center">As a native North Carolinian, I enjoy new challenges and helping people in the Raleigh/Durham/Chapel Hill areas.
-      {" "}<span class="btn-info">UNC's Coding Boot Camp</span> is teaching me so many new skills--HTML, JavaScript, CSS, 
+      {" "}<span className="btn-info">UNC's Coding Boot Camp</span> is teaching me so many new skills--HTML, JavaScript, CSS, 
       jQuery, Node.js, ES6, mySQL, MongoDB, Mongoose, and React just to name a few! 
       I am really looking forward to applying my new knowledge, as a Full Stack Developer, 
       with a local company in the community.</p>
