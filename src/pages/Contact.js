@@ -1,6 +1,4 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Projects from "./Projects";
 import Row from "../components/Row";
 import "./style.css";
 
@@ -31,15 +29,7 @@ function Contact(props) {
           </div>
         </div>
       </Row>
-      <div className="text-center">
-        <Link to={`${props.match.url}/projects`} role="button" className="btn btn-link text-center">
-          Projects Appear
-        </Link>{" "}
-        <Link to="/contact" role="button" className="btn btn-link text-center">
-          Projects Disappear
-        </Link>
-        <Route exact path={`${props.match.url}/projects`} component={Projects} />
-      </div>
+      
     </div>
 
   );
