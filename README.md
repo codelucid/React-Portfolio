@@ -1,12 +1,12 @@
 # React-Portfolio 
 
-![GitHub license](https://img.shields.io/badge/license-None-brightgreen)
+![GitHub license](https://img.shields.io/badge/Skill-HTML-brightgreen) ![GitHub license](https://img.shields.io/badge/Skill-CSS-blue) ![GitHub license](https://img.shields.io/badge/Skill-JavaScript-red) ![GitHub license](https://img.shields.io/badge/Skill-React-purple)
 
 ## Description  
 
 This is my React portfolio that showcases my newly learned skills, as a Web Developer! Thank you for checking out my portfolio! 
 
-[React Portfolio](https://codelucid.github.io/React-Portfolio/ "My React Portfolio")
+[React Portfolio](https://codelucid.github.io/React-Portfolio/)
 
 ## Table of Contents
 - Installation 
@@ -29,8 +29,7 @@ This is a repository for creating and updating my React portfolio.
 
 ## License  
 
-The license for this project:
-None  
+![GitHub license](https://img.shields.io/badge/license-None-brightgreen)
 
 ## Contributing  
 
@@ -46,6 +45,6 @@ This is the command to initiate testing:
 
 If you have questions about the repo, contact Codelucid directly, at coophealey@gmail.com.
 
-[![My Profile Picture](/profilePic.png)](https://github.com/codelucid "My Profile Picture")
+[![My Profile Picture](/profilePic.png)](https://github.com/codelucid)
 
-[My Portfolio](https://codelucid.github.io/Portfolio/ "The Classic Portfolio")
+[My Classic Portfolio](https://codelucid.github.io/Portfolio/)
