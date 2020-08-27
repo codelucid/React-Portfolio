@@ -38,7 +38,7 @@
       "id": 6,
       "name": "TourZing",
       "image": "/images/tourzing.png",
-      "linkDeployed": "https://degrassi-syrup-05027.herokuapp.com/",
+      "linkDeployed": "https://tourzing.herokuapp.com/",
       "linkGithub": "https://github.com/codelucid/TourZing"
     },
     {
